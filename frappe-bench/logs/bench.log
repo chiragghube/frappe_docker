@@ -1,10 +1,14 @@
-2024-01-28 10:12:41,956 DEBUG cd frappe-bench && python3 -m venv env
-2024-01-28 10:12:46,630 DEBUG cd frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
-2024-01-28 10:12:49,271 DEBUG cd frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet wheel
-2024-01-28 10:12:50,156 LOG Getting frappe
-2024-01-28 10:12:50,157 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
-2024-01-28 10:12:54,039 LOG Installing frappe
-2024-01-28 10:12:54,040 DEBUG cd /Users/chirag/erp-next/frappe_docker/frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/chirag/erp-next/frappe_docker/frappe-bench/apps/frappe 
-2024-01-28 10:13:44,595 DEBUG cd /Users/chirag/erp-next/frappe_docker/frappe-bench/apps/frappe && yarn install
-2024-01-28 10:13:45,614 ERROR There was a problem while creating frappe-bench
-2024-01-28 10:15:25,458 WARNING /Library/Frameworks/Python.framework/Versions/3.11/bin/bench init --skip-redis-config-generation frappe-bench executed with exit code 1
+2024-01-28 10:18:48,943 DEBUG cd frappe-bench && python3 -m venv env
+2024-01-28 10:18:53,362 DEBUG cd frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-01-28 10:18:56,393 DEBUG cd frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-01-28 10:18:57,258 LOG Getting frappe
+2024-01-28 10:18:57,258 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-01-28 10:19:00,883 LOG Installing frappe
+2024-01-28 10:19:00,883 DEBUG cd /Users/chirag/erp-next/frappe_docker/frappe-bench && /Users/chirag/erp-next/frappe_docker/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/chirag/erp-next/frappe_docker/frappe-bench/apps/frappe 
+2024-01-28 10:19:45,186 DEBUG cd /Users/chirag/erp-next/frappe_docker/frappe-bench/apps/frappe && yarn install
+2024-01-28 10:20:13,135 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-01-28 10:20:13,136 DEBUG cd frappe-bench && bench build
+2024-01-28 10:20:13,391 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench build
+2024-01-28 10:20:37,661 LOG setting up backups
+2024-01-28 10:20:46,702 LOG backups were set up
+2024-01-28 10:20:46,702 INFO Bench frappe-bench initialized
